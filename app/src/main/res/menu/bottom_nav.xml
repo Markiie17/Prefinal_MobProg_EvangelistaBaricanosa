@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/list_n"
+        android:title="List"
+        android:icon="@drawable/btm_nav_list"/>
+    <item
+        android:id="@+id/add_n"
+        android:title="Add to List"
+        android:icon="@drawable/btm_nav_add"/>
+    <item
+        android:id="@+id/update_n"
+        android:title="Update"
+        android:icon="@drawable/btm_nav_update"/>
+
+
+</menu>

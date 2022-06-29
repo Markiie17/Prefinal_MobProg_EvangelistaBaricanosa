@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#545454">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:text="Add to List"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="40dp"/>
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:hint="ID"
+            android:id="@+id/inputID"
+            android:layout_width="100dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".5"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:hint="Name"
+            android:id="@+id/inputName"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".5"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:hint="Amount"
+            android:id="@+id/inputAmount"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".5"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:hint="Address"
+            android:id="@+id/inputAddress"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".5"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:hint="Email"
+            android:id="@+id/inputEmail"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".5"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <Button
+            android:background="@drawable/rounded_button"
+            android:hint="Add"
+            android:id="@+id/btnAdd"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".7"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
